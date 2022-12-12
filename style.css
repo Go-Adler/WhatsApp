@@ -11,6 +11,9 @@ nav {
     justify-content: space-between;
     align-items: center;
 }
+/* .logo {
+    width: 320px;
+} */
 
 .logoImg {
     width: 130px;
@@ -18,7 +21,7 @@ nav {
 }
 
 .whatsappDownload {
-    width: 317px;
+    width: auto;
     height: 58px;
     display: flex;
     align-items: center;
@@ -26,6 +29,7 @@ nav {
 .whatsappWeb {
     width: 112px;
     height: 18px;
+    margin: 0px 20px;
 }
 
 .downloadButton {
@@ -36,5 +40,33 @@ nav {
     height: 52px;
     display: flex;
     align-items: center;
+    margin-left: 12px;
+    width: 156px;
 }
 
+.navItems {
+    padding: 26px;
+}
+
+.navItems-area {
+    display: flex;
+}
+
+header {
+    position: relative;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+nav {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+}
