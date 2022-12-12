@@ -5,6 +5,10 @@ body {
     color: #1c1e21;
 }
 
+* {
+    box-sizing: border-box;
+}
+
 .logoImg {
     width: 130px;
     height: 30px;
