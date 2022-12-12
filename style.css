@@ -4,16 +4,6 @@ body {
     font-size: 16px;
     color: #1c1e21;
 }
-nav {
-    height: 80px;
-    padding: 0px 40px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-/* .logo {
-    width: 320px;
-} */
 
 .logoImg {
     width: 130px;
@@ -26,13 +16,14 @@ nav {
     display: flex;
     align-items: center;
 }
+
 .whatsappWeb {
     width: 112px;
     height: 18px;
     margin: 0px 20px;
 }
 
-.downloadButton {
+.downloadButton, .chatGraphics-description-download {
     background-color: #25d366;
     border: 1px solid #1c1e21;
     border-radius: 50px;
@@ -42,6 +33,11 @@ nav {
     align-items: center;
     margin-left: 12px;
     width: 156px;
+}
+
+.chatGraphics-description-download:link {
+    color: black;
+    text-decoration: none;
 }
 
 .navItems {
@@ -58,7 +54,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 20px;
+    padding: 40px;
 }
 
 nav {
@@ -69,4 +65,88 @@ nav {
     justify-content: center;
     align-items: center;
     height: 80px;
+}
+
+.nav_header {
+    position: fixed;
+    top: 0;
+    background-color: #fcf5eb66;
+    width: 100%;
+    backdrop-filter: blur(6px);
+    z-index: 3;
+}
+
+.privateImage-area {
+    margin-top: 80px;
+    padding: 32px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.privateImage {
+    width: 100%;
+    border-radius: 25px;
+}
+
+.chatGraphicsArea {
+    position: absolute;
+    width: 1080px;
+    height: 752px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.chatGraphics-description {
+    width: 354px;
+    height: 323px;
+    margin-right: 23px;
+    color: #fff;
+}
+
+.chatGraphics {
+    width: 436px;
+    height: 600px;
+}
+
+.chatGraphics-description-head {
+    font-size: 80px;
+}
+
+.chatGraphics-description-info {
+    margin: 18px 0px 12px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.chatGraphics-description-download {
+    margin: 0;
+    border: none;
+}
+
+.chatGraphics-reactionArea {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin-top: 5px;
+}
+
+.chatGraphics-reactionLove, .chatGraphics-reactionSad {
+    position: absolute;
+    top: 25px;
+}
+
+.chatGraphics-reactionSad {
+    top: 238px;
+}
+
+.terms {
+    padding: 12px 0px;
+    font-size: 12px;
+    color:  #5E5E5E;
+    align-self: flex-end;
 }
