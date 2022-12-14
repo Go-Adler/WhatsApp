@@ -239,3 +239,61 @@ nav {
     display: flex;
     align-items: center;
 }
+
+.speakFreely {
+    height: 846px;
+    background-color: #111B21;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.speakFreely-area {
+    width: 1080px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.speakFreely-img {
+    width: 528px;
+    height: 650px;
+}
+
+.speakFreely-descriptionArea, keepInTouch-descriptionArea {
+   width: 450px; 
+   height: 290px;
+   color: #fff;
+}
+
+.speakFreely-description-title {
+    font-size: 60px;
+    line-height: 66px;
+    font-weight: 400;
+}
+
+.speakFreely-description-title-2 {
+    color: #25d366;
+}
+
+.speakFreely-description {
+    width: 450px;
+    height: 100px;
+}
+
+.keepInTouch {
+    height: 843px;
+}
+
+.keepInTouch-area {
+    width: 1080px;
+    height: 651px;
+}
+
+.keepInTouch {
+    color: #1c1e21;
+}
+
+.keepInTouch-area, .keepInTouch {
+    background-color: #fcf5eb;
+}
